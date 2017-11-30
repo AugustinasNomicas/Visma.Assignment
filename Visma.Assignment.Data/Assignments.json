@@ -1,0 +1,193 @@
+[
+  {
+    "Id": 4,
+    "Title": "House renovation",
+    "Description": "Can some one help me with the house renovation",
+    "Type": 1,
+    "Status": 0,
+    "Longitude": "18.0670",
+    "Latitude": "59.3293",
+    "Likes": 12,
+    "Points": 1000,
+    "CreatedDate": "2017-11-17T14:33:02.8711346Z",
+    "UserName" : "api_user", 
+    "Comments": [
+      {
+        "Id" :  1, 
+        "Text": "What sort of renovation do you need?",
+        "UserName": "api_user2"
+      },
+      {
+        "Id": 2,
+        "UserName": "api_user2",
+        "Text": "What type of house we are talking about?"
+      }
+    ],
+    "Assignments": [
+      {
+        "Id":  1, 
+        "Title": "Paint wall",
+        "Description": "I need to repaint external walls in my house",
+        "IsCompleted": false,
+        "Comments": null
+      },
+      {
+        "Id": 2,
+        "Title": "Fix water pipe",
+        "Description": "Water pipe in the kitchen must be fixed or replaced",
+        "IsCompleted": false,
+        "Comments": null
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "Title": "Buy Milk",
+    "Description": "Go to the nearest shop and by 2 packs of milk",
+    "Type": 1,
+    "Status": 1,
+    "Longitude": "18.0686",
+    "Latitude": "59.3293",
+    "Likes": 0,
+    "Points": 10,
+    "CreatedDate": "2017-11-17T14:33:02.8891509Z",
+    "UserName": "api_user",
+    "Comments": null,
+    "Assignments": null
+  },
+  {
+    "Id": 2,
+    "Title": "Deliver order to customer",
+    "Description": "Deliver new TV-set to customer address",
+    "Type": 0,
+    "Status": 0,
+    "Longitude": "18.0670",
+    "Latitude": "59.3293",
+    "Likes": 2,
+    "Points": 100,
+    "CreatedDate": "2017-11-17T14:33:02.896656Z",
+    "UserName": "api_user2",
+    "Comments": [
+      {
+        "Id": 3,
+        "UserName": "api_user",
+        "Text": "Can you please specify address?"
+      }
+    ],
+    "Assignments": [
+      {
+        "Id": 3,
+        "Title": "Provide your email address",
+        "Description": "Provide email address to receive order indentification",
+        "IsCompleted": false,
+        "Comments": null
+      },
+      {
+        "Id": 4,
+        "Title": "Go to the eMarket shop",
+        "Description": "Given identification number take TV-set",
+        "IsCompleted": false,
+        "Comments": null
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Title": "Make me laugh",
+    "Description": "Can some one tell a joke?",
+    "Type": 2,
+    "Status": 0,
+    "Longitude": "18.0682",
+    "Latitude": "60.3393",
+    "Likes": 23,
+    "Points": 2,
+    "CreatedDate": "2017-11-17T14:33:02.9121722Z",
+    "UserName": "api_user",
+    "Comments": null,
+    "Assignments": null
+  },
+  {
+    "Id": 5,
+    "Title": "Car repair",
+    "Description": "I need some guidence how I can fix my car myself",
+    "Type": 2,
+    "Status": 1,
+    "Longitude": "12.0682",
+    "Latitude": "60.3393",
+    "Likes": 1,
+    "Points": 1900,
+    "CreatedDate": "2017-11-17T14:33:02.9171729Z",
+    "UserName": "api_user2",
+    "Comments": [
+      {
+        "Id": 4,
+        "UserName": "api_user",
+        "Text": "It is hard job, maybe it will be much easier dedicate it to professional service?"
+      }
+    ],
+    "Assignments": null
+  },
+  {
+    "Id": 6,
+    "Title": "Programming",
+    "Description": "I need to complete my classwork, I have to implement API",
+    "Type": 2,
+    "Status": 3,
+    "Longitude": "12.0682",
+    "Latitude": "60.3393",
+    "Likes": 143,
+    "Points": 2900,
+    "CreatedDate": "2017-11-17T14:33:02.9251786Z",
+    "UserName": "api_user",
+    "Comments": [
+      {
+        "Id": 5,
+        "UserName": "api_user2",
+        "Text": "Hey, you should do it yourself, other wise you won't be able to learn anything!!"
+      }
+    ],
+    "Assignments": [
+      {
+        "Id": 5,
+        "Title": "Teach me basics",
+        "Description": "I have to understand how REST works and routing mechanism will be usefull",
+        "IsCompleted": true,
+        "Comments": null
+      },
+      {
+        "Id": 6,
+        "Title": "Choosing domain",
+        "Description": "Can someone recommend me some test domain, which is easy to understand :)",
+        "IsCompleted": false,
+        "Comments": [
+          {
+            "Id": 6,
+            "UserName": "api_user2",
+            "Text": "This is too much, go and do it yourself!!!!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Title": "Dancing",
+    "Description": "I want to start dancing LyndyHop and need a mentor",
+    "Type": 0,
+    "Status": 2,
+    "Longitude": "12.0682",
+    "Latitude": "60.3393",
+    "Likes": 3,
+    "Points": 121,
+    "CreatedDate": "2017-11-17T14:33:02.9411905Z",
+    "UserName": "api_user2",
+    "Comments": [
+      {
+        "Id": 7,
+        "UserName": "api_user",
+        "Text": "I think this is not really popular here in LT"
+      }
+    ],
+    "Assignments": null
+  }
+]
